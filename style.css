@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #fcf8f7;
+}
+
+.navbar-brand {
+    padding-left: 50px;
+    background-size: cover;
+    height: 150;
+    width: 150;
+    
+}
+
+.navbar-nav {
+    position: relative;
+    float: right;
+    padding-right: 50px;
+}
+
+
+.nav-link {
+    
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    word-spacing: 20;
+    color: #b4b8b5;
+    vertical-align: middle;
+}
+
+.nav-link:hover {
+   on hover: color  
+}
