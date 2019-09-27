@@ -1,33 +1,155 @@
+.nav-container {
+    padding: 0;
+    font-size: 0;
+}
+
+/*--Navigation--*/
+
 .navbar {
     background-color: #fcf8f7;
+
 }
 
 .navbar-brand {
-    padding-left: 50px;
+    padding-left: 30px;
     background-size: cover;
-    height: 150;
-    width: 150;
-    
+    width: 200;
+    height: 200;
+
 }
 
 .navbar-nav {
-    position: relative;
-    float: right;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 
+.nav-item {
+    word-spacing: 50;
+}
 
 .nav-link {
-    
+
     font-family: "Quicksand", sans-serif;
     font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    word-spacing: 20;
-    color: #b4b8b5;
+    color: #8a8689!important;
     vertical-align: middle;
+    padding-left: 30px!important;
 }
 
 .nav-link:hover {
-   on hover: color  
+    color: #c99bc4!important;
+    transform: scale(1.25);
+    transition: ease-in-out;
+    transition-duration: 0.3s;
 }
+
+.nav-item .a .nav-link .active .nav-item .a .nav-link .active:hover,
+.nav-item .a .nav-link .active:focus {
+    color: #c99bc4;
+    background-color: transparent;
+}
+
+@media (max-width: 768px) {
+    #navbarNavDropdown {
+        text-align: center;
+    }
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+    font-weight: bold;
+    color: #c99bc4;
+}
+
+/*--Navigation--*/
+
+/*Typography*/
+
+/*--Footer*/
+
+.container-fluid .footer-container {
+    
+}
+
+#footer {
+    background-color: #d9dbda;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-button {
+    position: relative;
+    display: inline-block;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8a8689!important;
+    vertical-align: middle;
+    border: 3px solid #c99bc4;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.contact-methods {
+    padding-top: 20px;
+}
+
+.social {
+    padding-top: 10px;
+}
+
+.footer-items {
+    color: #8a8689;
+    font-weight: bold;
+}
+
+.footer-items:hover {
+    color: #c99bc4;
+    transform: scale(1.25);
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+
+.send-email {
+    color: #8a8689;
+    text-decoration: none;
+}
+
+.send-email:hover {
+    color: #c99bc4;
+    text-decoration: none;
+}
+
+
+.call {
+    color: #8a8689;
+    text-decoration: none;
+}
+
+.call:hover {
+    color: #c99bc4;
+    text-decoration: none;
+}
+
+.send-email > i {
+    color: #c99bc4;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.call > i {
+    color: #c99bc4;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+/*--Footer*/
