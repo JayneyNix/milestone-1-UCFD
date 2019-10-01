@@ -1,3 +1,16 @@
+/*Typography*/
+
+h5 {
+    font-family: Quicksand, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/*Typography*/
+
+
 .nav-container {
     padding: 0;
     font-size: 0;
@@ -57,7 +70,8 @@
     }
 }
 
-.navbar .navbar-toggler {
+
+.navbar-toggler .navbar-toggler-icon {
     border: 0;
     font-weight: bold;
     color: #c99bc4;
@@ -65,7 +79,7 @@
 
 /*--Navigation--*/
 
-/*Typography*/
+
 
 /*--Footer*/
 
@@ -150,6 +164,39 @@
     font-size: 20px;
 }
 
+.insta {
+
+    color: #c99bc4;
+    font-size: 20px;
+}
+
+.facebook {
+
+    color: #c99bc4;
+    font-size: 20px;
+}
 
 
+.insta:hover {
+    color: #8a8689;
+    text-decoration: none;
+}
+
+.facebook:hover {
+    color: #8a8689;
+    text-decoration: none;
+}
+
+.contact-methods {
+    display: inline-block;
+    position: relative;
+}
+
+.row .contact {
+    padding-top: 20px;
+}
+.row .social {
+    padding-top: 20px;
+}
+    
 /*--Footer*/
