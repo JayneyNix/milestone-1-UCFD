@@ -1,38 +1,43 @@
 /*Typography*/
 
 .headings {
-    
+
     font-family: Quicksand, sans-serif;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.uppercase {
-    text-transform: uppercase;
+
+.h1 {
+    font-size: 28px;
+    color: #8a8689;
+    font-weight: bold;
 }
 
-h1 {
-    font-size: 24px;
-}
-
-h2 {
+.h2 {
     font-size: 20px;
+    font-weight: bold;
 }
 
-h3 {
-    font-size: 20px;
-}
-
-h4 {
+.h3 {
     font-size: 18px;
 }
 
-h5 {
+.h4 {
+    font-size: 16px;
+}
+
+.h5 {
     font-size: 14px;
 }
 
-/*Typography*/
+.p {
+    font-size: 14px;
+    color: #8a8689;
+    font-weight: normal;
+}
 
+/*Typography*/
 
 .nav-container {
     padding: 0;
@@ -44,6 +49,16 @@ h5 {
 .d-flex .contact-header {
     padding-right: 30px;
 }
+
+/*@media (max-width: 575px) {*/
+
+/*   .d-flex .contact-header { */
+
+/*   display: none;*/
+
+/*   }*/
+
+/*}*/
 
 .p-2 .email-header {
     color: #c99bc4;
@@ -65,7 +80,7 @@ h5 {
 /*--Navigation--*/
 
 .navbar {
-    background-color: #fcf8f7;
+    background-color: #fff;
 
 }
 
@@ -104,18 +119,21 @@ h5 {
     transition-duration: 0.3s;
 }
 
-.nav-item .a .nav-link .active .nav-item .a .nav-link .active:hover,
-.nav-item .a .nav-link .active:focus {
-    color: #c99bc4;
-    background-color: transparent;
-}
+/*.nav-item .a .nav-link .active .nav-item .a .nav-link .active:hover,*/
+
+/*.nav-item .a .nav-link .active:focus {*/
+
+/*    color: #c99bc4;*/
+
+/*    background-color: transparent;*/
+
+/*}*/
 
 @media (max-width: 768px) {
     #navbarNavDropdown {
         text-align: center;
     }
 }
-
 
 .navbar-toggler .navbar-toggler-icon {
     border: 0;
@@ -125,14 +143,11 @@ h5 {
 
 /*--Navigation--*/
 
-
-
 /*--Footer*/
 
 .container-fluid .footer-container {
-    height: 100vh;
-    display:inline-block;
-    
+    display: inline-block;
+    font-size: 0;
 }
 
 #footer {
@@ -140,8 +155,9 @@ h5 {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    
+
 }
+
 
 .footer-button {
     position: relative;
@@ -149,19 +165,26 @@ h5 {
     font-family: "Quicksand", sans-serif;
     font-size: 20px;
     font-weight: bold;
-    text-decoration: none;
     text-transform: uppercase;
-    color: #8a8689!important;
     vertical-align: middle;
     border: 3px solid #c99bc4;
     border-radius: 10px;
     padding: 10px;
+    text-align: center;
 }
 
+.footer-button .contact-link {
+    text-decoration: none;
+}
 
+.footer-button .a .h2 {
+    vertical-align: middle;
+}
 
-.social {
-    padding-top: 10px;
+.send-email {
+
+    color: #8a8689;
+    text-decoration: none;
 }
 
 .footer-items {
@@ -171,15 +194,9 @@ h5 {
 
 .footer-items:hover {
     color: #c99bc4;
-    transform: scale(1.25);
+    transform: scale(1.1);
     transition: ease-in-out;
-    transition-duration: 0.3s;
-    text-decoration: none;
-}
-
-.send-email {
-    color: #8a8689;
-    text-decoration: none;
+    transition-duration: 0.4s;
 }
 
 .send-email:hover {
@@ -189,6 +206,7 @@ h5 {
 
 
 .call {
+
     color: #8a8689;
     text-decoration: none;
 }
@@ -198,17 +216,32 @@ h5 {
     text-decoration: none;
 }
 
-.send-email > i {
+.send-email>i {
     color: #c99bc4;
+    padding: 5px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.send-email>i:hover {
+    color: #8a8689;
     padding: 5px;
     font-size: 20px;
 }
 
-.call > i {
+
+.call>i {
     color: #c99bc4;
     padding: 10px;
     font-size: 20px;
 }
+
+.call>i:hover {
+    color: #8a8689;
+    padding: 10px;
+    font-size: 20px;
+}
+
 
 .insta {
 
@@ -235,3 +268,43 @@ h5 {
 
 
 /*--Footer*/
+
+/*--Homepage Section 1*/
+
+.home-main-banner {
+    padding: 0;
+    font-size: 0;
+    margin:0;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+    .home-main-banner {
+        display: none;
+    }
+}
+
+.home-main-intro {
+    width: 100%;
+    text-align: center;
+}
+
+/*--Homepage Section 1*/
+
+
+
+
+/*--Homepage Section 3*/
+
+.home-testimonial-banner {
+    padding: 0;
+    font-size: 0;
+    margin:0;
+    padding-bottom: 20px;
+    
+}
+
+.carousel-testimonial .img-fluid {
+    height:400px;
+}
+/*--Homepage Section 3*/
