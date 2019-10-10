@@ -62,10 +62,12 @@
 
 .p-2 .email-header {
     color: #c99bc4;
+    text-decoration: none;
 }
 
 .p-2 .call-header {
     color: #c99bc4;
+    text-decoration: none;
 }
 
 .p-2 .email-header:hover {
@@ -164,13 +166,14 @@
     display: inline-block;
     font-family: "Quicksand", sans-serif;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bolder;
     text-transform: uppercase;
     vertical-align: middle;
     border: 3px solid #c99bc4;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
+    background-color: #c99bc4; 
 }
 
 .footer-button .contact-link {
@@ -193,10 +196,11 @@
 }
 
 .footer-items:hover {
-    color: #c99bc4;
-    transform: scale(1.1);
+    color: #8a8689;
+    transform: scale(1.1); 
     transition: ease-in-out;
     transition-duration: 0.4s;
+   
 }
 
 .send-email:hover {
@@ -269,12 +273,12 @@
 
 /*--Footer*/
 
-/*--Homepage Section 1*/
+/*--Homepage Section 1 - Banner & Intro*/
 
 .home-main-banner {
     padding: 0;
     font-size: 0;
-    margin:0;
+    margin: 0;
     padding-bottom: 20px;
 }
 
@@ -289,22 +293,68 @@
     text-align: center;
 }
 
-/*--Homepage Section 1*/
+/*--Homepage Section 1 - Banner & Intro*/
 
+/*--Homepage Section 2 - About*/
 
+/*--Homepage Section 2 - About*/
 
+/*--Homepage Section 3 - Testimonials*/
 
-/*--Homepage Section 3*/
-
-.home-testimonial-banner {
+#testimonial-carousel {
     padding: 0;
     font-size: 0;
-    margin:0;
-    padding-bottom: 20px;
-    
+    margin-bottom: 20px;
+    height: 300px;
 }
 
-.carousel-testimonial .img-fluid {
-    height:400px;
+.carousel-image {
+    height: 300px;
+    opacity: 0.8;
 }
-/*--Homepage Section 3*/
+
+
+.carousel-caption {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    width: 80%;
+}
+
+.carousel-heading {
+    color: #8a8689;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.carousel-text {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.box {
+    border: 0px transparent;
+    border-radius:50%;
+    background-color: #fffafa;
+    opacity: 0.8;
+    padding: 20px;
+}
+
+
+
+/*--Homepage Section 3 - Testiomonials*/
+
+
+
+/*--Homepage Section 2 - Gallery*/
+
+.gallery-item .gallery-image {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  padding-bottom: 20px;
+}
+
+/*--Homepage Section 2 - Gallery*/
