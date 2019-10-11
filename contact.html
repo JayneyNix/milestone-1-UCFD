@@ -19,18 +19,13 @@
 
     <div class="d-flex justify-content-end">
         <div class="d-flex contact-header flex-row-reverse align-items-center">
-            <div class="p-2"><a class="email-header" href="mailto:bookings@samanthaharris.ca" target="-blank"><i class="fas fa-envelope-square" aria-hidden="true"></i><h5 class="headings uppercase">Email Samantha</h5></a></div>
-            <div class="p-2"><a class="call-header" href="tel:905-749-5700"><i class="fas fa-mobile-alt" aria-hidden="true"></i><h5 class="headings uppercase">Call 905-749-5700</h5></a></div>
-
+            <div class="p-2"><a class="email-header" href="mailto:bookings@samanthaharris.ca" target="-blank"><i class="fas fa-envelope-square" aria-hidden="true"></i><h5 class="h5 headings">Email Samantha</h5></a></div>
+            <div class="p-2"><a class="call-header" href="tel:905-749-5700"><i class="fas fa-mobile-alt" aria-hidden="true"></i><h5 class="h5 headings">Call 905-749-5700</h5></a></div>
         </div>
     </div>
 
 
-
-
-
-
-<div class="container-fluid nav-container no-padding">
+    <div class="container-fluid nav-container no-padding">
         <nav class="navbar navbar-light navbar-expand-sm">
 
             <a class="navbar-brand" href="index.html">
@@ -62,54 +57,142 @@
             </div>
         </nav>
     </div>
-    
-    
+
+
     <!-----Navigation----->
 
 
     <!--Introduction-->
 
+    <div class="container-fluid contact-main-banner">
+        <div class="row">
+            <div class="contact-column col-sm-12">
+                <img src="Assets/wedding-table-decoration.jpg" class="img-fluid w-100" alt="banner-image-table-decoration">
+            </div>
+        </div>
 
-
+    </div>
+    <div class="container-fluid contact-intro no-padding">
+        <div class="row justify-content-center">
+            <div class="col-sm-6 home-main-intro">
+                <h1 class="h1 headings">I'd love to hear from you!</h1>
+                <p class="p headings">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            </div>
+        </div>
+    </div>
 
     <!--Introduction-->
 
+    <!--Contact Form-->
+
+<div class="container contact-container">
+    <div class="row justify-content-center">
+        <div class="contact-form col-sm-6">
+    <form action="send_email.html" method="post">
+        <fieldset>
+            <legend class="fieldset-1"><h3 class="h3 headings">About You</h3></legend>
+            <label for="name"><h5 class="h5 headings">Name</h5></label>
+            <input type="text" id="name" placeholder="name" name="Name"><br>
+
+            <label for="email"><h5 class="h5 headings">Email</h5></label>
+            <input type="email" id="email" placeholder="email" name="Email required"><br>
+
+            <label for="number"><h5 class="h5 headings">Contact Number</h5></label>
+            <input type="number" id="number" placeholder="xxx-xxx-xxxx" name="Contact-Number required"><br>
+
+        </fieldset>
+        <fieldset>
+            <legend class="fieldset-2"><h3 class="h3 headings">About Your Special Day</h3></legend>
+            <label for="event-date"><h5 class="h5 headings">Date Of Wedding / Event</h5></label>
+            <input type="date" id="event-date" placeholder="event-date" name="Event-Date"><br>
+<div class="last-input">
+            <label for="question"><h5 class="h5 headings">Question</h5></label>
+            <input type="textarea" id="enquiry" placeholder="enquiry" name="Enquiry" maxlength="500"><br>
+            </div>
+        </fieldset>
+        <input class="contact-form-button" type="submit" value="Send Email">
+    </form>
+    </div>
+    </div>
+</div>
+    <!--Contact Form-->
 
 
+    <!--Testimonials-->
 
+    <div id="testimonial-carousel" class="carousel slide d-none d-md-block" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="carousel-image d-block w-100" src="Assets/cosmetic-brushes.jpg" alt="Slide-One">
+                <div class="carousel-caption d-none d-md-block height-auto">
+                    <div class="box">
+                        <h2 class="h2 headings carousel-heading align-items-center justify-content-center">What My Lovely Clients Said...</h5>
+                            <p class="p headings carousel-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                                lobortis nisl ut aliquip ex ea commodo consequat.
+                            </p>
+                    </div>
+                </div>
+            </div>
 
+            <div class="carousel-item">
+                <img class="carousel-image d-block w-100" src="Assets/cosmetic-brushes.jpg" alt="Slide-One">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="box">
+                        <h2 class="h2 headings carousel-heading align-items-center justify-content-center">What My Lovely Clients Said...</h5>
+                            <p class="p headings carousel-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                                lobortis nisl ut aliquip ex ea commodo consequat.
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="carousel-image d-block w-100" src="Assets/cosmetic-brushes.jpg" alt="Slide-One">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="box">
+                        <h2 class="h2 headings carousel-heading align-items-center justify-content-center">What My Lovely Clients Said...</h5>
+                            <p class="p headings carousel-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                                lobortis nisl ut aliquip ex ea commodo consequat.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Testimonials-->
 
 
     <footer class="container-fluid footer-container no-padding">
 
         <div id="footer" class="row">
-            <div class="col-md-12">
+            <div class="col-sm-12">
                 <div class="action">
                     <btn class="footer-button">
-                        <a href="contact.html" <h5 class="footer-items">BOOK NOW!</h5></a>
+                        <a class="contact-link" href="contact.html">
+                            <h2 class="h2 headings footer-items">BOOK NOW!</h2>
+                        </a>
                     </btn>
                 </div>
 
-                <div class="col-md-12">
+                <div class="col-sm-12">
                     <div class="contact-methods">
                         <a class="send-email" href="mailto:bookings@samanthaharris.ca" target="-blank"><i class="fas fa-envelope-square" aria-hidden="true"></i>
-                <h5 class ="headings uppercase">Email Samantha</h5></a>
-                        <a class="call" href="tel:905-749-5700"><i class="fas fa-mobile-alt" aria-hidden="true"></i><h5 class="headings uppercase">905-749-5700</h5></a>
+                <h5 class="h5 headings">Email Samantha</h5></a>
+                        <a class="call" href="tel:905-749-5700"><i class="fas fa-mobile-alt" aria-hidden="true"></i><h5 class="h5 headings">905-749-5700</h5></a>
                     </div>
                 </div>
 
-                <div class="col-md-12">
+                <div class="col-sm-12">
                     <div class="social"></div>
                     <a class="insta" href="https://www.instagram.com" target="-blank"><i class="fab fa-instagram" aria-hidden="true"></i>
                     </a>
                     <a class="facebook" href="https://www.facebook.com" target="-blank"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
                 </div>
             </div>
-            
-        </div>
         </div>
 
     </footer>
+
 
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -118,4 +201,3 @@
 </body>
 
 </html>
-
