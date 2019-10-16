@@ -41,55 +41,53 @@
 
 /*Typography*/
 
-.nav-container {
-    padding: 0;
-    font-size: 0;
-}
+/*Fixed Contact Header*/
 
-/*--Fixed Header--*/
-
-.d-flex .contact-header {
-    padding-right: 30px;
-}
-
-/*@media (max-width: 575px) {*/
-
-/*   .d-flex .contact-header { */
-
-/*   display: none;*/
-
-/*   }*/
-
-/*}*/
-
-.p-2 .email-header {
+.p-1 .email-header {
     color: #c99bc4;
     text-decoration: none;
 }
 
-.p-2 .call-header {
+.p-1 .call-header {
     color: #c99bc4;
     text-decoration: none;
 }
 
-.p-2 .email-header:hover {
+.p-1 .email-header:hover {
     color: #8a8689;
 }
 
-.p-2 .call-header:hover {
+.p-1 .call-header:hover {
     color: #8a8689;
 }
 
+.p-1 .h5 {
+    color: #c99bc4;
+}
+
+.p-1 .h5:hover {
+    color: #8a8689;
+}
+
+
+/*Fixed Contact Header*/
 
 /*--Navigation--*/
 
+.nav-container {
+    padding-right: 20px;
+    padding-left: 0;
+}
+
 .navbar {
     background-color: #fff;
-
+    height: 120px;
+    padding: 0;
 }
 
 .navbar-brand {
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
     background-size: cover;
     width: 200;
     height: 200;
@@ -101,7 +99,7 @@
 }
 
 .nav-item {
-    word-spacing: 50;
+    padding: 20;
 }
 
 .nav-link {
@@ -123,15 +121,12 @@
     transition-duration: 0.3s;
 }
 
-/*.nav-item .a .nav-link .active .nav-item .a .nav-link .active:hover,*/
-
-/*.nav-item .a .nav-link .active:focus {*/
-
-/*    color: #c99bc4;*/
-
-/*    background-color: transparent;*/
-
-/*}*/
+.navbar-light .navbar-toggler {
+    margin-right: 20px;
+    border: 0;
+    font-weight: bold;
+    color: #c99bc4;
+}
 
 @media (max-width: 768px) {
     #navbarNavDropdown {
@@ -139,11 +134,7 @@
     }
 }
 
-.navbar-toggler .navbar-toggler-icon {
-    border: 0;
-    font-weight: bold;
-    color: #c99bc4;
-}
+
 
 /*--Navigation--*/
 
@@ -182,70 +173,18 @@
     text-decoration: none;
 }
 
-.footer-button .a .h2 {
-    vertical-align: middle;
-}
-
-.send-email {
-
-    color: #8a8689;
-    text-decoration: none;
-}
-
 .footer-items {
-    color: #8a8689;
+    color: #fffafa;
     font-weight: bold;
+    vertical-align: middle;
+    margin: 0;
 }
 
 .footer-items:hover {
     color: #8a8689;
     transform: scale(1.1);
     transition: ease-in-out;
-    transition-duration: 0.4s;
-
-}
-
-.send-email:hover {
-    color: #c99bc4;
-    text-decoration: none;
-}
-
-
-.call {
-
-    color: #8a8689;
-    text-decoration: none;
-}
-
-.call:hover {
-    color: #c99bc4;
-    text-decoration: none;
-}
-
-.send-email>i {
-    color: #c99bc4;
-    padding: 5px;
-    font-size: 20px;
-    padding-top: 10px;
-}
-
-.send-email>i:hover {
-    color: #8a8689;
-    padding: 5px;
-    font-size: 20px;
-}
-
-
-.call>i {
-    color: #c99bc4;
-    padding: 10px;
-    font-size: 20px;
-}
-
-.call>i:hover {
-    color: #8a8689;
-    padding: 10px;
-    font-size: 20px;
+    transition-duration: 0.5s;
 }
 
 
@@ -278,22 +217,25 @@
 /*--Homepage Section 1 - Banner & Intro*/
 
 .home-main-banner {
-    padding: 0;
-    font-size: 0;
+    max-width: 100%;
+    height: 100%;
+    padding: 0px 0px 20px;
     margin: 0;
-    padding-bottom: 20px;
-
+    font-size: 0;
 }
 
-@media (max-width: 576px) {
-    .home-main-banner {
-        display: none;
-    }
+.img-fluid {
+    box-sizing: border-box; 
 }
 
-.home-main-intro {
-    width: 100%;
-    text-align: center;
+#home-main-intro {
+    padding: 0;
+    margin: 0;
+}
+
+.intro-section {
+    padding: 0;
+    width: 80%;
 }
 
 /*--End Homepage Section 1 - Banner & Intro*/
@@ -305,6 +247,7 @@
 /*--Homepage Section 3 - Testimonials*/
 
 #testimonial-carousel {
+    display: block;
     padding: 0;
     font-size: 0;
     margin-bottom: 20px;
@@ -313,7 +256,7 @@
 
 .carousel-image {
     height: 300px;
-    opacity: 0.8;
+
 }
 
 
@@ -341,15 +284,16 @@
     border: 0px transparent;
     border-radius: 50%;
     background-color: #fffafa;
-    opacity: 0.8;
-    padding: 20px;
+    padding: 30px;
 }
 
-
-
-/*--End Homepage Section 3 - Testiomonials*/
+/*--End Homepage Section 3 - Testimonials*/
 
 /*--Gallery*--/
+
+.gallery-container {
+    padding-bottom: 20px:
+}
 
 .gallery-item .gallery-image {
   display: inline-block;
@@ -360,19 +304,21 @@
 
 /*--End Gallery--*/
 
-/*--contact page form--*/
+/*--Contact Page Form--*/
 
 .contact-container {
     padding-bottom: 20px;
 }
 
 .contact-form {
+
     text-align: center;
     background-color: #fffafa;
     height: 430px;
-   
-   
-   .contact-main-banner {
+}
+
+
+.contact-main-banner {
     font-size: 0;
     margin: 0;
     padding: 0;
