@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact | Professional Bridal Make-Up | Samantha Harris</title>
+    <link rel="shortcut icon" type="image/png" href="Assets/favicon.png">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
@@ -110,18 +111,18 @@
             <div class="form-group row justify-content-center">
                 
                 <div class="col-6">
-                    <input type="text" class="form-control" id="name" placeholder="Name">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
                 </div>
             </div>
             <div class="form-group row justify-content-center">
                 
                 <div class="col-6">
-                    <input type="email" class="form-control" id="email" placeholder="Email">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
                 </div>
             </div>
             <div class="form-group row justify-content-center">
                 <div class="col-6">
-                    <input type="number" class="form-control" id="number" placeholder="Contact Number">
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Contact Number (format xxx-xxx-xxxx)" required>
                 </div>
             </div>
             <div class="form-group row row-second-section justify-content-center">
@@ -129,12 +130,12 @@
             </div>
             <div class="form-group row justify-content-center">
                 <div class="col-6">
-                    <input type="date" class="form-control" id="event-date" placeholder="Select Date of Event">
+                    <input type="date" class="form-control" id="event-date" name="date" placeholder="Event Date" required>
                 </div>
             </div>
             <div class="form-group row justify-content-center">
                 <div class="col-6">
-                    <input type="textarea" class="form-control" id="message" placeholder="Write a Message" max-length="500">
+                    <input type="textarea" class="form-control" id="message" "name="message" placeholder="Write a Message" max-length="500" required>
                 </div>
             </div>
             <div class="form-group row row-bottom justify-content-center">
