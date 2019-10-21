@@ -1,5 +1,12 @@
 ![logo](https://github.com/JayneyNix/milestone-1-UCFD/blob/master/Assets/images/logo.png "Samantha Harris Make-Up")
+
+
 # Samantha Harris Professional Make-Up Artist
+
+
+Deployed site can be viewed here - https://jayneynix.github.io/milestone-1-UCFD/
+
+
 Samantha Harris is a local business owner who provides professional make-up services for weddings and sprecial events across the Greater Toronto Area. Previously she has relied on Instagram and FaceBook to share images of her work and reach new clients but these channels don't convey the quality of her brand which is essentially herself and her professional experience.
 
 
