@@ -10,7 +10,7 @@ For the end-user, the website will demonstrate the sort of artist she is, allow 
 
 Original UX planning document can be viewed here - https://docs.google.com/document/d/1Tt1ZdK4prbSZUU5bApycs3QUcxEYowtlfcXvl3QONY0/edit?usp=sharing
 
-Wireframes are available in the master repository - 
+Wireframes are available in the master repository - https://github.com/JayneyNix/milestone-1-UCFD/blob/master/Milestone%201%20Wireframes.pdf
 
 
 ## Features
